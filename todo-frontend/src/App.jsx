@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-const API = "http://127.0.0.1:8000/api/todos";
+const API = "https://todo-app-9zh6.onrender.com";
 
 function App() {
   const [todos, setTodos] = useState([]);
