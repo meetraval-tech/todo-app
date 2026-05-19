@@ -1,0 +1,11 @@
+goal is a basic CRUD REST API, you can realistically build it in about 2–3 hours even starting from scratch with Laravel not installed yet.
+
+A practical timeline:
+
+Task	Approx Time
+Install PHP + Composer + Laravel	30–60 min
+Create project	10 min
+Setup database	15 min
+Create model/controller/routes	30–45 min
+Build CRUD endpoints	45–60 min
+Test in Postman	15–20 min
