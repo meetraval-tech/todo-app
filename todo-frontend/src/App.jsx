@@ -21,7 +21,10 @@ function App() {
 
   // ADD todo
   const addTodo = async () => {
-    if (!title) return;
+    if (!title.trim()) {
+    toast.error("Please enter a task!");
+    return;
+  }
 
     await axios.post(API, {
       title,
